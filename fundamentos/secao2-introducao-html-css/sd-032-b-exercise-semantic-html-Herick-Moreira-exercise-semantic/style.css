@@ -1,0 +1,49 @@
+header {
+    background-color: aquamarine;
+    height: 15%;
+    display: flex;
+    padding: 15px;
+    color: rgb(25, 105, 38);
+}
+
+nav {
+    background-color: rgb(25, 105, 38);
+    padding: 15px;
+        
+}
+
+.nav-style a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    }
+
+aside {
+    grid-area: "aside";
+    width: 30vw;
+    background-color: rgb(155, 209, 182);
+    display: flex;
+}
+
+.Grid {
+    display: grid;
+    grid-template: "auto aside";
+    gap: 5px;
+}
+
+footer {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    padding: 4%;
+
+}
